@@ -13,6 +13,7 @@ public class Tests
     [TestCase(2)]
     [TestCase(3)]
     [TestCase(100)]
+    [TestCase(200)]
     public void NoLeapYear(int year)
     {
         var result = LeapYear.IsLeap(year);
@@ -21,6 +22,7 @@ public class Tests
     
     [TestCase(4)]
     [TestCase(400)]
+    [TestCase(800)]
     public void IsLeapYear(int year)
     {
         var result = LeapYear.IsLeap(year);
