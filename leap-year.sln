@@ -4,9 +4,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5829FAF8-2EA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{609A4A72-E4AB-480C-8217-BF6849ECCDE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leap-year-domain", "leap-year-domain\leap-year-domain.csproj", "{960699B9-6F9A-426F-B8FB-EAE8135665E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leap-year-test", "leap-year-test\leap-year-test.csproj", "{492885C3-9D36-45E7-84B0-10678F38DC93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{960699B9-6F9A-426F-B8FB-EAE8135665E4} = {5829FAF8-2EA9-4CC1-AA25-0E6DA83156B0}
+		{492885C3-9D36-45E7-84B0-10678F38DC93} = {609A4A72-E4AB-480C-8217-BF6849ECCDE2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{960699B9-6F9A-426F-B8FB-EAE8135665E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960699B9-6F9A-426F-B8FB-EAE8135665E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960699B9-6F9A-426F-B8FB-EAE8135665E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960699B9-6F9A-426F-B8FB-EAE8135665E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492885C3-9D36-45E7-84B0-10678F38DC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492885C3-9D36-45E7-84B0-10678F38DC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492885C3-9D36-45E7-84B0-10678F38DC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492885C3-9D36-45E7-84B0-10678F38DC93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
