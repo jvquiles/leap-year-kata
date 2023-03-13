@@ -2,8 +2,13 @@
 
 public static class LeapYear
 {
-    public static bool IsLeap(int i)
+    public static bool IsLeap(int year)
     {
+        if (year % 4 == 0)
+        {
+            return true;
+        }
+
         return false;
     }
 }
