@@ -7,24 +7,12 @@ public class Tests
     {
     }
 
-    [Test]
-    public void Year1()
+    [TestCase(1)]
+    [TestCase(2)]
+    [TestCase(3)]
+    public void NoLeapYear(int year)
     {
-        var result = LeapYear.IsLeap(1);
-        Assert.False(result);
-    }
-
-    [Test]
-    public void Year2()
-    {
-        var result = LeapYear.IsLeap(2);
-        Assert.False(result);
-    }
-
-    [Test]
-    public void Year3()
-    {
-        var result = LeapYear.IsLeap(3);
+        var result = LeapYear.IsLeap(year);
         Assert.False(result);
     }
 }
