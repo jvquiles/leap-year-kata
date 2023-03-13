@@ -1,4 +1,4 @@
-﻿namespace leap_year_test;
+﻿namespace leap_year_domain;
 
 public static class LeapYear
 {

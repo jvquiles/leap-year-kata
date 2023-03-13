@@ -1,4 +1,6 @@
-﻿namespace leap_year_test;
+﻿using leap_year_domain;
+
+namespace leap_year_test;
 
 public class Tests
 {
@@ -11,6 +13,13 @@ public class Tests
     [TestCase(2)]
     [TestCase(3)]
     public void NoLeapYear(int year)
+    {
+        var result = LeapYear.IsLeap(year);
+        Assert.False(result);
+    }
+    
+    [TestCase(4)]
+    public void IsLeapYear(int year)
     {
         var result = LeapYear.IsLeap(year);
         Assert.False(result);
