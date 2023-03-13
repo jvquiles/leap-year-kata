@@ -20,4 +20,11 @@ public class Tests
         var result = LeapYear.IsLeap(2);
         Assert.False(result);
     }
+
+    [Test]
+    public void Year3()
+    {
+        var result = LeapYear.IsLeap(3);
+        Assert.False(result);
+    }
 }
