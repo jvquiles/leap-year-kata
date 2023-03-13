@@ -10,7 +10,7 @@ public class Tests
     [Test]
     public void Year1()
     {
-        bool result = LeapYear.IsLeap(1);
+        var result = LeapYear.IsLeap(1);
         Assert.False(result);
     }
 }

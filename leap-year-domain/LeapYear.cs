@@ -4,6 +4,6 @@ public static class LeapYear
 {
     public static bool IsLeap(int i)
     {
-        throw new NotImplementedException();
+        return false;
     }
 }
