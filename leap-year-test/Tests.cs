@@ -22,6 +22,6 @@ public class Tests
     public void IsLeapYear(int year)
     {
         var result = LeapYear.IsLeap(year);
-        Assert.False(result);
+        Assert.True(result);
     }
 }
